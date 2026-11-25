@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shiv Kumar — B.Tech student and aspiring web developer. Explore my skills, education and projects.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Shiv Kumar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Shiv Kumar home"><span class="brand-mark">S</span><span>Shiv<span class="accent">.</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link nav-contact">Contact me <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> B.Tech Student · Aspiring Web Developer</p>
+        <h1>Hi, I'm <span class="gradient-text">Shiv Kumar.</span><br> I build for the <span class="outline-text">web.</span></h1>
+        <p class="hero-description">I'm a second-year B.Tech student learning to turn ideas into clean, useful and engaging digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>03</strong><span>Core skills</span></div>
+          <div class="meta-divider"></div>
+          <div><strong>02nd</strong><span>Year student</span></div>
+          <div class="meta-divider"></div>
+          <div><strong>∞</strong><span>Things to learn</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>shiv.js</span><span class="code-menu">•••</span></div>
+          <div class="code-content">
+            <p><span class="code-muted">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p><span class="code-muted">02</span> &nbsp; name: <span class="code-green">'Shiv Kumar'</span>,</p>
+            <p><span class="code-muted">03</span> &nbsp; learning: [</p>
+            <p><span class="code-muted">04</span> &nbsp;&nbsp; <span class="code-green">'HTML'</span>,</p>
+            <p><span class="code-muted">05</span> &nbsp;&nbsp; <span class="code-green">'CSS'</span>,</p>
+            <p><span class="code-muted">06</span> &nbsp;&nbsp; <span class="code-green">'JavaScript'</span></p>
+            <p><span class="code-muted">07</span> &nbsp; ],</p>
+            <p><span class="code-muted">08</span> &nbsp; mindset: <span class="code-green">'Keep building'</span></p>
+            <p><span class="code-muted">09</span> };</p>
+            <p class="code-comment"><span class="code-muted">10</span> // Always learning. Always improving.</p>
+          </div>
+          <div class="code-footer"><span><i class="tiny-green"></i> Ready to create</span><span>UTF-8&nbsp; JavaScript</span></div>
+        </div>
+        <div class="floating-tag tag-html"><b>5</b> HTML</div>
+        <div class="floating-tag tag-css"><b>✦</b> CSS</div>
+        <div class="floating-tag tag-js"><b>JS</b> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>A little <span class="gradient-text">about me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-card about-intro">
+          <div class="about-icon">✳</div>
+          <h3>Curious mind.<br>Creative approach.</h3>
+          <p>I'm Shiv Kumar, a B.Tech student at Shri Ramswaroop Memorial University. I'm interested in web development and enjoy learning how websites are designed and built.</p>
+          <p>Right now, I'm strengthening my foundations in HTML, CSS and JavaScript while working towards building projects that solve real problems.</p>
+        </div>
+        <div class="about-side">
+          <div class="info-card"><span class="info-label">CURRENT FOCUS</span><strong>Front-end development</strong><span class="info-detail">Building a strong foundation for the web</span></div>
+          <div class="info-card"><span class="info-label">BASED IN</span><strong>India</strong><span class="info-detail">Open to learning and collaboration</span></div>
+          <div class="quote-card"><span>“</span><p>Every expert was once a beginner. Keep learning, keep creating.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading"><p class="eyebrow">02 / EDUCATION</p><h2>My learning <span class="gradient-text">journey.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">CURRENT · 2ND YEAR</div>
+          <div class="timeline-content"><span class="timeline-type">UNDERGRADUATE</span><h3>Bachelor of Technology (B.Tech)</h3><p class="institution">Shri Ramswaroop Memorial University</p><p class="muted">Currently pursuing my undergraduate degree and developing technical and problem-solving skills.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">PREVIOUS</div>
+          <div class="timeline-content"><span class="timeline-type">SCHOOL EDUCATION</span><h3>Higher Secondary Education</h3><p class="institution">Details to be added</p><p class="muted">Add your school name, board and completion year here when ready.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / SKILLS</p><h2>Tools I work <span class="gradient-text">with.</span></h2><p class="section-subtitle">The technologies I'm currently learning and practising.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol html-symbol">5</span><span class="skill-level">FOUNDATION</span></div><h3>HTML</h3><p>Creating well-structured, accessible web page content.</p><div class="skill-track"><span style="width:75%"></span></div><small>Semantic structure · Forms · Elements</small></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol css-symbol">✦</span><span class="skill-level">FOUNDATION</span></div><h3>CSS</h3><p>Styling responsive layouts and bringing interfaces to life.</p><div class="skill-track"><span style="width:65%"></span></div><small>Flexbox · Grid · Responsive design</small></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol js-symbol">JS</span><span class="skill-level">LEARNING</span></div><h3>JavaScript</h3><p>Adding interaction and useful behaviour to websites.</p><div class="skill-track"><span style="width:45%"></span></div><small>DOM · Events · Basic logic</small></article>
+      </div>
+      <p class="skills-note">Skill indicators are illustrative and represent my current learning journey.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">04 / PROJECTS</p><h2>Things I'm <span class="gradient-text">building.</span></h2><p class="section-subtitle">A few project ideas and learning exercises. I'll add live project links as I complete them.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-one"><div class="mini-browser"><div class="mini-browser-top"><i></i><i></i><i></i></div><div class="mini-lines"><b></b><span></span><span></span><em></em></div></div><span class="art-number">01</span></div>
+          <div class="project-info"><div class="project-category">HTML · CSS</div><h3>Personal Portfolio</h3><p>A responsive website to introduce myself, share my skills and showcase my learning journey.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive</span></div><span class="project-status">● In progress</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><div class="weather-widget"><span>☀</span><strong>28°</strong><small>Good day to build</small><i></i></div><span class="art-number">02</span></div>
+          <div class="project-info"><div class="project-category">HTML · CSS · JS</div><h3>Weather App</h3><p>A practice project concept for displaying weather information in a simple interface.</p><div class="tag-list"><span>JavaScript</span><span>API practice</span></div><span class="project-status">○ Planned</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-three"><div class="todo-widget"><span class="todo-check">✓</span><b>Study tasks</b><i></i><i></i><i></i></div><span class="art-number">03</span></div>
+          <div class="project-info"><div class="project-category">HTML · CSS · JS</div><h3>To-Do List</h3><p>A small productivity app concept to practise DOM manipulation and event handling.</p><div class="tag-list"><span>JavaScript</span><span>DOM</span></div><span class="project-status">○ Planned</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">05 / CONTACT</p><h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2><p class="contact-copy">I'm always interested in learning, connecting with other students and discussing ideas. Feel free to reach out.</p><a class="email-link" href="mailto:shivbh1707@gmail.com">shivbh1707@gmail.com <span>↗</span></a></div>
+        <form class="contact-form" id="contact-form">
+          <label for="visitor-name">Your name</label><input id="visitor-name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="visitor-email">Your email</label><input id="visitor-email" name="email" type="email" placeholder="name@example.com" required>
+          <label for="visitor-message">Your message</label><textarea id="visitor-message" name="message" rows="4" placeholder="Tell me what's on your mind..." required></textarea>
+          <button class="button button-primary submit-button" type="submit">Send message <span>↗</span></button>
+          <p class="form-note" id="form-note" aria-live="polite">This form opens your email app to send the message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">S</span><span>Shiv<span class="accent">.</span></span></a><p>Designed & built by Shiv Kumar · <span id="year"></span></p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
